@@ -1,0 +1,28 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Gradle
+.gradle/
+**/.gradle/
+**/build/
+
+# Android
+**/local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Environment
+.env
+*.env
+application-local.yml
+
+# Logs
+*.log
+logs/
+
+# Operating System
+.DS_Store
+Thumbs.db
