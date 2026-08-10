@@ -41,3 +41,9 @@ management:
 logging:
   level:
     org.springframework.security: INFO
+
+app:
+  jwt:
+    secret: ${JWT_SECRET}
+    issuer: bonin-api
+    access-token-ttl: 15m
